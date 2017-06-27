@@ -1,0 +1,12 @@
+This Program is a companion app for hunger games/pvp real life game like nerf wars.
+
+This program aims to:
+  -reduce confusion of who is alive,
+  -reduce frustration when searching for opponents,
+  -added complexity with revive system
+    +when somebody dies a timer starts, and depending on how long the game has lasted, their teamates have a
+    a specific amount of time to find their teammate and revive them. teamates will recieve a notification with
+    a general direction towards their teammates, and a time of how long the teammate has.
+  -support for teams
+
+  
