@@ -15,7 +15,11 @@ function server() {
     this.activeMatches.splice(index,1);
 
   }
-
+  //takes a match name and a member name and creates a new member in that match
+  this.addNewMember = function(matchName,memberName) {
+    index = this.getMatchIndex(matchName);
+    this.activeMatches[index].addNewMember(memberName);
+  }
   // takes a match object and returns the object from within active matches
   this.getMatch = function(matchName) {
 
@@ -50,8 +54,14 @@ function server() {
 
   //prints the match data to the console.
   this.print = function() {
+    console.log(this.activeMatches.length);
+    SENTINIEL = this.activeMatches.length;
+    for(i = 0; i<SENTINIEL; i++) {
+      this.activeMatches[i].print();
 
-    for(i = 0; i<this.activeMatches.length; i++) {
+    }
+     n = 0;
+    while(n<SENTINIEL) {
       this.activeMatches[i].print();
     }
   }
