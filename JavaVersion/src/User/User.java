@@ -1,7 +1,11 @@
-package developer.version;
+package User;
+
+import java.util.ArrayList;
 
 public class User {
 	private String name;
+	private boolean alive = true;
+	
 	
 	public User(String setName) {
 		this.setName(setName);
@@ -17,4 +21,6 @@ public class User {
 	public String toString() {
 		return "Name: " + getName();
 	}
+	
+
 }

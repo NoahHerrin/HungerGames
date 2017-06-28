@@ -1,6 +1,8 @@
-package developer.version;
+package Match;
 
 import java.util.ArrayList;
+
+import User.User;
 
 public class Match {
 	

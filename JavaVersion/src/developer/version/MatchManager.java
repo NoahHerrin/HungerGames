@@ -2,6 +2,8 @@ package developer.version;
 
 import java.util.ArrayList;
 
+import Match.Match;
+
 public class MatchManager {
 	
 	private ArrayList<Match> MatchList = new ArrayList<Match>();
