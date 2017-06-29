@@ -1,5 +1,3 @@
 User
 Match
-
-Example Situations
-somebody getting killed
+	+Mode
